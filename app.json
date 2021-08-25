@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "Black Vision",
+    "icon": "./assets/logo01.png",
+    "version": "1.4.0",
+    "slug": "black-vision",
+    "orientation": "portrait",
+    "splash": {
+      "image": "./assets/logo01.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.blackbattle.blackvision",
+      "buildNumber": "1.4.0"
+    },
+    "android": {
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyD7qvfdEj1j0nfeGSvlb5epCRmRabiEKqM"
+        }
+      },
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo01.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.blackbattle.blackvision",
+      "versionCode": 5
+    },
+    "web": {
+      "favicon": "./assets/logo01.png"
+    }
+  }
+}
